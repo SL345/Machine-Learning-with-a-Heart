@@ -1,0 +1,24 @@
+**Worked on the Dataset using Python**
+
+**Steps:**
+1. Analysis of the dataset through Exploratory Data Analysis
+Using Visualization extracted some useful insights like females have a higher chance of getting heart disease, Older the patient is, the greater is the chance of getting heart disease..
+
+2. Feature Engineering and Extraction:
+This is the most important phase in machine learning. A model can work at its best only if the features provided to it are good enough.
+  - Imputation of Missing Values: No values were missing so skipped this step.
+  - Feature Extraction: No features were extracted.
+  
+3. Modelling using:
+ - Phase 1:
+   - Base Models: Used Logistic Regression, Decision Tree, Random Forest, Extra Trees Classifiers, SVM and KNN
+   - Ensembles : Used Bagging with Logistic Regression, Decision Tree and Random Forest, Boosting like Adaptive Boosting, Extreme Gradient Boosting and Gradient Boosting
+ - Phase 2:
+   - Used hyperparameter tuning like GridSearchCV to fine tune the base models and ensembles.
+   - Worked on a number of permutations and combinations with the base and ensembles
+   - Finally also performed Stacking
+
+4. Further Work that needs to be done:
+  - Work on extracting some features
+  - Work on feature specific models
+  - Use deep learning techniques
